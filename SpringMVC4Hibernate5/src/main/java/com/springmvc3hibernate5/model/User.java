@@ -1,4 +1,4 @@
-package com.boraji.tutorial.spring.model;
+package com.springmvc3hibernate5.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

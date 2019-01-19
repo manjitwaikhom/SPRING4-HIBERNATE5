@@ -1,4 +1,4 @@
-package com.boraji.tutorial.spring.config;
+package com.springmvc4hibernate5.config;
 
 import java.util.Properties;
 
@@ -12,8 +12,10 @@ import org.springframework.core.env.Environment;
 import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import com.springmvc3hibernate5.model.User;
+
 import static org.hibernate.cfg.Environment.*;
-import com.boraji.tutorial.spring.model.User;
 
 /**
  * @author imssbora
@@ -21,8 +23,8 @@ import com.boraji.tutorial.spring.model.User;
 @Configuration
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
-@ComponentScans(value = { @ComponentScan("com.boraji.tutorial.spring.dao"),
-      @ComponentScan("com.boraji.tutorial.spring.service") })
+@ComponentScans(value = { @ComponentScan("com.springmvc4hibernate5.dao"),
+      @ComponentScan("com.springmvc3hibernate5.service") })
 public class AppConfig {
 
    @Autowired

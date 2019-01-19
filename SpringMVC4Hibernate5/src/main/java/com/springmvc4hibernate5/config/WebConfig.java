@@ -1,4 +1,4 @@
-package com.boraji.tutorial.spring.config;
+package com.springmvc4hibernate5.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -12,14 +12,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-/**
- * @author imssbora
- */
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "com.boraji.tutorial.spring.controller",
-      "com.boraji.tutorial.spring.validator" })
+@ComponentScan(basePackages = { "com.springmvc4hibernate5.controller",
+      "com.springmvc4hibernate5.validator" })
 public class WebConfig extends WebMvcConfigurerAdapter {
 
    @Bean

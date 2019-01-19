@@ -1,8 +1,8 @@
-package com.boraji.tutorial.spring.service;
+package com.springmvc3hibernate5.service;
 
 import java.util.List;
 
-import com.boraji.tutorial.spring.model.User;
+import com.springmvc3hibernate5.model.User;
 
 public interface UserService {
    void save(User user);

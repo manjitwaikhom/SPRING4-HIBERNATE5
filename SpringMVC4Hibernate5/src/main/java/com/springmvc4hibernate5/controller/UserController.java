@@ -1,4 +1,4 @@
-package com.boraji.tutorial.spring.controller;
+package com.springmvc4hibernate5.controller;
 
 import java.util.Locale;
 
@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.boraji.tutorial.spring.model.User;
-import com.boraji.tutorial.spring.service.UserService;
+import com.springmvc3hibernate5.model.User;
+import com.springmvc3hibernate5.service.UserService;
 
 @Controller
 public class UserController {

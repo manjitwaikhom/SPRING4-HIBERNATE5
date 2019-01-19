@@ -1,8 +1,8 @@
-package com.boraji.tutorial.spring.dao;
+package com.springmvc4hibernate5.dao;
 
 import java.util.List;
 
-import com.boraji.tutorial.spring.model.User;
+import com.springmvc3hibernate5.model.User;
 
 public interface UserDao {
    void save(User user);
