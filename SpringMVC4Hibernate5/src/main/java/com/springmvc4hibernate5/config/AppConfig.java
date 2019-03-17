@@ -19,6 +19,7 @@ import static org.hibernate.cfg.Environment.*;
 
 /**
  * @author manjit
+ * 
  */
 @Configuration
 @PropertySource("classpath:db.properties")
