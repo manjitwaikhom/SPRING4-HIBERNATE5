@@ -18,7 +18,7 @@ import com.springmvc3hibernate5.model.User;
 import static org.hibernate.cfg.Environment.*;
 
 /**
- * @author imssbora
+ * @author manjit
  */
 @Configuration
 @PropertySource("classpath:db.properties")
