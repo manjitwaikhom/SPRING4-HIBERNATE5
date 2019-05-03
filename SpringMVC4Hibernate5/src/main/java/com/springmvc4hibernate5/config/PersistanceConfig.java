@@ -26,7 +26,7 @@ import static org.hibernate.cfg.Environment.*;
 @EnableTransactionManagement
 @ComponentScans(value = { @ComponentScan("com.springmvc4hibernate5.dao"),
       @ComponentScan("com.springmvc3hibernate5.service") })
-public class AppConfig {
+public class PersistanceConfig {
 
    @Autowired
    private Environment env;
