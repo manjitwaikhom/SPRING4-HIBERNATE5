@@ -1,7 +1,5 @@
 **# SPRING-4.x.x-HIBERNATE-5.x.x**
 
-References: https://www.boraji.com/spring-4-mvc-hibernate-5-integration-example
-
 Tools and technologies used for this example are -
 
 Spring 4.3.7.RELEASE,  
