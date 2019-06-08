@@ -1,4 +1,4 @@
-package com.springmvc4hibernate5.config;
+package com.spring4mvc_hibernate5.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
@@ -15,8 +15,8 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = { "com.springmvc4hibernate5.controller",
-      "com.springmvc4hibernate5.validator" })
+@ComponentScan(basePackages = { "com.spring4mvc_hibernate5.controller",
+      "com.spring4mvc_hibernate5.validator","com.spring4mvc_hibernate5.restful_webservices" })
 public class WebConfig extends WebMvcConfigurerAdapter {
 
    @Bean

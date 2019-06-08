@@ -1,4 +1,4 @@
-package com.springmvc4hibernate5.config;
+package com.spring4mvc_hibernate5.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

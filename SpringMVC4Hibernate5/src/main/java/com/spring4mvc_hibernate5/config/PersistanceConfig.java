@@ -1,4 +1,4 @@
-package com.springmvc4hibernate5.config;
+package com.spring4mvc_hibernate5.config;
 
 import java.util.Properties;
 
@@ -13,7 +13,7 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-import com.springmvc3hibernate5.model.User;
+import com.spring4mvc_hibernate5.model.User;
 
 import static org.hibernate.cfg.Environment.*;
 
@@ -24,8 +24,8 @@ import static org.hibernate.cfg.Environment.*;
 @Configuration
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
-@ComponentScans(value = { @ComponentScan("com.springmvc4hibernate5.dao"),
-      @ComponentScan("com.springmvc3hibernate5.service") })
+@ComponentScans(value = { @ComponentScan("com.spring4mvc_hibernate5.dao"),
+      @ComponentScan("com.spring4mvc_hibernate5.service") })
 public class PersistanceConfig {
 
    @Autowired

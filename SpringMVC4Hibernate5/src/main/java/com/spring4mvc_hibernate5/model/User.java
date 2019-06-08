@@ -1,4 +1,4 @@
-package com.springmvc3hibernate5.model;
+package com.spring4mvc_hibernate5.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
